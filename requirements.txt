@@ -1,0 +1,4 @@
+# No third-party dependencies. The agent, Qloo client, CLI, web UI and
+# evaluation harness are all Python standard library only (urllib, http.server,
+# argparse, json, dataclasses). This keeps the build at $0 with zero install
+# friction for judges: `python3 demo/cli.py` just works.
